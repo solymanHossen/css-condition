@@ -1,0 +1,72 @@
+.container {
+  margin-top: 3rem;
+  max-width: 1260px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+} 
+.input-search{
+width: 25%;
+background:white;
+height: 40px;
+font-size: 20px;
+border-radius: 10px;
+border: none;
+padding: 10px;
+}
+.mainCard{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.card-content{
+  background: white;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    border-radius: 10px;
+    
+}
+.headerFlex{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.text-bold{
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn{
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn-flex{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  
+}
+.last-update{
+  font-size: 13px;
+}
+
+.colorbtn{
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: red;
+  background: gray;
+}
+.colorbtn2{
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: green;
+  background: rebeccapurple;
+}
