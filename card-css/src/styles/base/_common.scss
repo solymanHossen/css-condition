@@ -19,6 +19,7 @@ padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 20px;
+  padding-bottom: 3rem;
 }
 .card-content{
   background: white;
@@ -60,7 +61,8 @@ padding: 10px;
   border-radius: 30px;
   cursor: pointer;
   color: red;
-  background: gray;
+  background:none;
+  border: 1px solid black;
 }
 .colorbtn2{
   padding: 10px;
@@ -68,5 +70,30 @@ padding: 10px;
   border-radius: 30px;
   cursor: pointer;
   color: green;
-  background: rebeccapurple;
+  background: none;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1098px) {
+  .mainCard{
+ 
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+}
+
+
+@media screen and (max-width: 620px) {
+  .mainCard{
+ 
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
+@media screen and (max-width: 450px) {
+  .mainCard{
+ 
+    grid-template-columns: 1fr;
+
+  }
 }
